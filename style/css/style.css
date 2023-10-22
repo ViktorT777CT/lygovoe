@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Gabriola";
+  src: url(../fonts/Gabriola/gabriola.ttf);
+}
+@font-face {
+  font-family: "Montserrat normal";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url(../fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf);
+}
+.font_Gab {
+  font-family: "Gabriola";
+}
+
+.font_bold {
+  font-family: "Montserrat bold";
+}
+
+body {
+  margin: auto;
+  font-family: "Montserrat normal", arial;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  background: rgb(82, 107, 48);
+  background: linear-gradient(90deg, rgb(82, 107, 48) 40%, rgb(89, 116, 47) 60%);
+  height: 786px;
+}
+
+.mask_img {
+  background: rgb(82, 107, 48);
+  background: linear-gradient(90deg, rgba(82, 107, 48, 0.6) 40%, rgba(89, 116, 47, 0.6) 60%);
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.heading {
+  max-width: 400px;
+}
+
+nav {
+  max-width: 1320px;
+  width: 100%;
+}
+
+#navbarSupportedContent button {
+  background-color: rgb(123, 152, 58);
+  border: none;
+  border-radius: 0;
+  margin-left: -5px;
+}
+
+/*# sourceMappingURL=style.css.map */
