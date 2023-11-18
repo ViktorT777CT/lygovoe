@@ -43,7 +43,7 @@ header {
 
 .mask_img {
   background: rgb(82, 107, 48);
-  background: linear-gradient(90deg, rgba(82, 107, 48, 0.6) 40%, rgba(89, 116, 47, 0.6) 60%);
+  background: linear-gradient(360deg, rgb(82, 107, 48) 2%, rgba(89, 116, 47, 0.6) 40%);
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -118,6 +118,11 @@ nav {
 .img_content {
   max-width: 300px !important;
   margin: auto;
+}
+
+.bg_green-2 {
+  background: rgb(82, 107, 48);
+  background: linear-gradient(171deg, rgb(82, 107, 48) 25%, rgb(159, 169, 145) 47%, rgb(209, 209, 209) 72%);
 }
 
 @media screen and (max-width: 992px) {
