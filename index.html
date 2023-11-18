@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="style/css/style.css">
 </head>
 <body>
-    <header>
-        <div class="container-xxl position-relative h-100">
-            <nav class="navbar navbar-expand-lg position-fixed z-3">
+    <header class="img_bg2 position-relative">
+        <div class="position-absolute mask_img">
+        </div>
+        <div id="fixed_menu-bg" class=""></div>
+        <div class="container-xxl position-relative h-100 p-0">
+            <nav class="navbar navbar-expand-lg position-fixed z-3 mobil_menu">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,18 +37,15 @@
                                 <a class="nav-link text-white font_bold" href="#">КОНТАКТЫ</a>
                             </li>
                         </ul>
+                        <!--
                         <form class="d-flex" role="search">
                             <input class="form-control" type="search" placeholder="" aria-label="Search">
                             <button class="btn btn-success text-white font_bold" type="submit">найти</button>
-                        </form>
+                        </form>-->
+
                     </div>
                 </div>
             </nav>
-            <div class="position-relative z-1">
-                <div class="position-absolute mask_img">
-                    <img class="position-relative z-n1" src="img/header_bg.jpg" width="1140px" height="786px" alt="img">
-                </div>
-            </div>
             <div class="position-relative z-2 d-flex justify-content-center h-100">
                 <div class="heading d-flex flex-column justify-content-center mt-5 pt-5">
                     <h1 class="mt-5 pt-5 text-white text-center font_Gab">Отжимаем масло с любовью и заботой о вашем здоровье.</h1>
@@ -54,9 +54,209 @@
 
             </div>
         </div>
-
     </header>
+    <main>
+        <!-- О нас-->
+        <section class="bg_green pt-5 pb-5">
+            <div class="container-xxl">
+                <div class="wrap_1100">
+                    <div class="d-flex justify-content-center">
+                        <h2 class="text-center color_light-green font_Gab ">О НАС</h2>
+                    </div>
+                    <div class="row g-5">
+                        <div class="col-12 col-lg-4">
+                            <div class="d-flex">
+                                <img class="img_content rounded-3" src="/img/foto/IMG_4859.JPG" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="p-4 mb-5 bg-white rounded-2">
+                                <p class="m-0 color_green font_bold fs-4">Семейное дело для своего и всеобщего блага. </p>
+                            </div>
+                            <div class="p-4 mb-5 bg-white rounded-2">
+                                <p class="m-0 color_green font_bold fs-4">Используем фермерские семена и орехи, которые выращены экологич. </p>
+                            </div>
+                            <div class="p-4 bg-white rounded-2 fs-4">
+                                <p class="m-0 color_green font_bold">Бережно отжимаем масла из цельных семян без нагрева и контакта. </p>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="d-flex">
+                                <img class="img_content rounded-3" src="/img/foto/IMG_5293.JPG" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container-xxl">
+                    <div class="row g-5 mt-5">
+                        <div class="col">
+
+                            <div class="p-4 bg-white rounded-2 fs-4">
+                                <p class="m-0 color_green font_bold">
+                                    Производим масло методом холодного прессования - естественным
+                                    способом, так сохраняется весь витаминно-минеральный состав.
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <div class="d-flex">
+                                <img class=" img_content rounded-3" src="/img/foto/IMG_4859.JPG" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-4 mb-5 bg-white rounded-2">
+                                <p class="m-0 color_green font_bold fs-4">
+                                    Мы не готовим масло впрок, а давим его под заказ,
+                                    так как ценность живого продукта в его свежести
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--отзывы-->
+        <section class=" pt-5 pb-5">
+            <div class="container-xxl">
+                <div class="d-flex justify-content-center">
+                    <h2 class="text-center color_green font_Gab ">ОТЗЫВЫ</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="bg_green p-5 d-flex flex-column rounded-3">
+                            <div class="d-flex flex-column flex-md-row mb-1 mb-md-5">
+                                <div>
+                                    <img class="" src="">
+                                </div>
+                                <div class="ps-4">
+                                    <h5 class="text-white mb-0 fw-bold text-center">Евгения</h5>
+                                    <p class="text-white mb-0 text-center">23 сентября 2023 г.</p>
+                                </div>
+                            </div>
+                            <div class="m-auto d-flex align-item-center">
+                                <p class="text-white">
+                                    Александра, здравствуйте) Я в полном восторге, оно невероятно
+                                    вкусное, прям чувствуется вкус семечки)
+                                    а какой аромат....обалденный <br>
+                                    Спасибо Вам огромное
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="bg_green p-5 d-flex flex-column rounded-3">
+                            <div class="d-flex flex-column flex-md-row mb-1 mb-md-5">
+                                <div>
+                                    <img class="" src="">
+                                </div>
+                                <div class="ps-4">
+                                    <h5 class="text-white mb-0 fw-bold text-center">Евгения</h5>
+                                    <p class="text-white mb-0 text-center">23 сентября 2023 г.</p>
+                                </div>
+                            </div>
+                            <div class="m-auto d-flex align-item-center">
+                                <p class="text-white">
+                                    Александра, здравствуйте) Я в полном восторге, оно невероятно
+                                    вкусное, прям чувствуется вкус семечки)
+                                    а какой аромат....обалденный <br>
+                                    Спасибо Вам огромное
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="bg_green p-5 d-flex flex-column rounded-3">
+                            <div class="d-flex flex-column flex-md-row mb-1 mb-md-5">
+                                <div>
+                                    <img class="" src="">
+                                </div>
+                                <div class="ps-4">
+                                    <h5 class="text-white mb-0 fw-bold text-center">Евгения</h5>
+                                    <p class="text-white mb-0 text-center">23 сентября 2023 г.</p>
+                                </div>
+                            </div>
+                            <div class="m-auto d-flex align-item-center">
+                                <p class="text-white">
+                                    Александра, здравствуйте) Я в полном восторге, оно невероятно
+                                    вкусное, прям чувствуется вкус семечки)
+                                    а какой аромат....обалденный <br>
+                                    Спасибо Вам огромное
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="bg_green p-5 d-flex flex-column rounded-3">
+                            <div class="d-flex flex-column flex-md-row mb-1 mb-md-5">
+                                <div>
+                                    <img class="" src="">
+                                </div>
+                                <div class="ps-4">
+                                    <h5 class="text-white mb-0 fw-bold text-center">Евгения</h5>
+                                    <p class="text-white mb-0 text-center">23 сентября 2023 г.</p>
+                                </div>
+                            </div>
+                            <div class="m-auto d-flex align-item-center">
+                                <p class="text-white">
+                                    Александра, здравствуйте) Я в полном восторге, оно невероятно
+                                    вкусное, прям чувствуется вкус семечки)
+                                    а какой аромат....обалденный <br>
+                                    Спасибо Вам огромное
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Контакты-->
+        <section class=" pt-5 pb-5">
+            <div class="container-xxl">
+                <div class="d-flex justify-content-center">
+                    <h2 class="text-center color_green font_Gab ">КОНТАКТЫ</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12 col-lg-4">
+                        <div class="bg_green p-5 d-flex flex-column rounded-3">
+                            <div class="d-flex flex-column flex-md-row mb-1 mb-md-5">
+                                <div class="ps-4">
+                                    <p class="text-white mb-0 text-center">email</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="bg_green p-5 d-flex flex-column rounded-3">
+                            <div class="d-flex flex-column flex-md-row mb-1 mb-md-5">
+                                <div class="ps-4">
+                                    <p class="text-white mb-0 text-center">email</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="bg_green p-5 d-flex flex-column rounded-3">
+                            <div class="d-flex flex-column flex-md-row mb-1 mb-md-5">
+                                <div class="ps-4">
+                                    <p class="text-white mb-0 text-center">email</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+    </main>
 
     <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
 </body>
 </html>
