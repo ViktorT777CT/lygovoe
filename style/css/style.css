@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Gabriola";
-  src: url(../fonts/Gabriola/gabriola.ttf);
+  font-family: "Caveat";
+  src: url(../fonts/Caveat/Caveat-Medium.ttf);
 }
 @font-face {
   font-family: "Montserrat normal";
@@ -15,7 +15,8 @@
   src: url(../fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf);
 }
 .font_Gab {
-  font-family: "Gabriola";
+  font-family: "Caveat";
+  font-size: 41px;
 }
 
 .font_bold {
@@ -63,6 +64,9 @@ header {
 nav {
   max-width: 1320px;
   width: 100%;
+}
+nav a {
+  color: #fff !important;
 }
 
 #navbarSupportedContent button {
@@ -118,6 +122,7 @@ nav {
 .img_content {
   max-width: 300px !important;
   margin: auto;
+  width: 100%;
 }
 
 .bg_green-2 {
@@ -128,6 +133,68 @@ nav {
 .bg_3 {
   background: rgb(209, 209, 209);
   background: linear-gradient(171deg, rgb(209, 209, 209) 39%, rgb(255, 255, 255) 61%);
+}
+
+button[disabled] {
+  cursor: not-allowed;
+}
+
+#product {
+  min-height: 600px;
+  margin-top: 44px;
+}
+#product div {
+  margin: 0 30px 20px 0;
+  max-width: 340px;
+  float: left;
+}
+#product div img {
+  border-radius: 6px;
+}
+#product h1 {
+  color: #374a2d;
+  text-align: center;
+  font-family: "Caveat";
+}
+
+#form2 input {
+  border-color: rgb(82, 107, 48);
+}
+
+#form1, #form2 {
+  max-width: 500px;
+}
+
+.border_red {
+  border: 1px solid red !important;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+.a_hover:hover {
+  text-decoration: underline;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.bg_green-2 .breadcrumb {
+  color: #fff !important;
+}
+
+.gradient_button {
+  background: linear-gradient(151deg, rgb(82, 107, 48) 21%, rgb(125, 157, 129) 49%, rgb(82, 107, 48) 79%);
+}
+
+.breadcrumb {
+  padding-top: 114px;
+}
+.breadcrumb a {
+  color: white;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 992px) {
@@ -141,6 +208,13 @@ nav {
   }
   nav li a {
     text-align: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  #product div {
+    float: none;
+    margin: auto;
+    padding-bottom: 20px;
   }
 }
 

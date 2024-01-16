@@ -1,6 +1,6 @@
 @font-face
-  font-family: 'Gabriola'
-  src: url(../fonts/Gabriola/gabriola.ttf)
+  font-family: 'Caveat'
+  src: url(../fonts/Caveat/Caveat-Medium.ttf)
 @font-face
   font-family: 'Montserrat normal'
   font-style: normal
@@ -13,7 +13,8 @@
   src: url(../fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf)
 
 .font_Gab
-  font-family: 'Gabriola'
+  font-family: 'Caveat'
+  font-size: 41px
 .font_bold
   font-family: "Montserrat bold"
 body
@@ -45,6 +46,8 @@ header
 nav
   max-width: 1320px
   width: 100%
+  & a
+    color: #fff !important
 #navbarSupportedContent button
   background-color: rgba(123,152,58,1)
   border: none
@@ -82,13 +85,49 @@ nav
 .img_content
   max-width: 300px !important
   margin: auto
+  width: 100%
 .bg_green-2
   background: rgb(82,107,48)
   background: linear-gradient(171deg, rgba(82,107,48,1) 25%, rgba(159,169,145,1) 47%, rgba(209,209,209,1) 72%)
 .bg_3
   background: rgb(209,209,209)
   background: linear-gradient(171deg, rgba(209,209,209,1) 39%, rgba(255,255,255,1) 61%)
-
+button[disabled]
+  cursor: not-allowed
+#product
+  min-height: 600px
+  margin-top: 44px
+  & div
+    margin: 0 30px 20px 0
+    max-width: 340px
+    float: left
+    & img
+      border-radius: 6px
+  & h1
+    color: #374a2d
+    text-align: center
+    font-family: 'Caveat'
+#form2 input
+  border-color: rgb(82,107,48)
+#form1, #form2
+  max-width: 500px
+.border_red
+  border: 1px solid red !important
+.card:hover
+  box-shadow: 0 0 20px 20px  rgba(0,0,0,0.3)
+.a_hover:hover
+  text-decoration: underline
+.fs-10
+  font-size: 10px
+.bg_green-2 .breadcrumb
+  color: #fff !important
+.gradient_button
+  background: linear-gradient(151deg, rgba(82,107,48,1) 21%, rgba(125,157,129,1) 49%, rgba(82,107,48,1) 79%)
+.breadcrumb
+  padding-top: 114px
+  & a
+    color: white
+    font-weight: bold
 @media screen and (max-width: 992px)
   .mobil_menu
     background: rgb(82,107,48)
@@ -99,5 +138,12 @@ nav
     z-index: 3
   nav li a
     text-align: center
+@media screen and (max-width: 576px)
+  #product
+    & div
+      float: none
+      margin: auto
+      padding-bottom: 20px
+
 
 
